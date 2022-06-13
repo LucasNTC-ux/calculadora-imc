@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<link rel="shortcut icon" href="assets/img/saude.jpg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu IMC</title>
+    <h1 class="h1">Coloque os seus dados na calculadora a seguir e saiba qual é o seu IMC:</h1>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Calcule seu IMC</h1>
+        <form action="/" id="formulario" method="POST">
+            <label for="peso">Seu Peso</label>
+            <input type="text" id="peso" name-="peso">
+
+            <label for="altura">Sua Altura</label>
+            <input type="text" id="altura" name="altura">
+
+            <button type="submit">Enviar Dados</button>
+        </form>
+        <div id="resultado"></div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
